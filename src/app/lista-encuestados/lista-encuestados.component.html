@@ -1,0 +1,16 @@
+<h2 class="text-center">Resultados</h2>
+
+<table class="table table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>Email</th>
+            <th>Estilo Musical</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor= "let encuestado of encuestados">
+        <td>{{encuestado.email}}</td>
+        <td>{{encuestado.estilo}}</td>
+    </tr>
+    </tbody>
+</table>

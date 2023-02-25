@@ -1,0 +1,21 @@
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones" data-toggle="collapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="opciones">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/encuestados" routerLinkActive="active" href="#">Resultados</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/guardar-encuestado" routerLinkActive="active" href="#">Encuesta</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div class="container my-auto" >
+    <router-outlet></router-outlet>
+</div>
